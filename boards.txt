@@ -2997,3 +2997,12 @@ Midatronics.menu.rtlib.nanofps=Newlib Nano + Float Printf/Scanf
 Midatronics.menu.rtlib.nanofps.build.flags.ldspecs=--specs=nano.specs -u _printf_float -u _scanf_float
 Midatronics.menu.rtlib.full=Newlib Standard
 Midatronics.menu.rtlib.full.build.flags.ldspecs=
+
+# VESC 4.12
+GenF4.menu.pnum.VESC_4_12=VESC 4.12
+GenF4.menu.pnum.VESC_4_12.upload.maximum_size=1048576
+GenF4.menu.pnum.VESC_4_12.upload.maximum_data_size=131072
+GenF4.menu.pnum.VESC_4_12.build.board=VESC_4_12
+GenF4.menu.pnum.VESC_4_12.build.product_line=STM32F405xx
+GenF4.menu.pnum.VESC_4_12.build.variant=VESC_4_12
+
