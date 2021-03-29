@@ -207,4 +207,7 @@ extern "C" {
   #define SERIAL_PORT_HARDWARE    Serial
 #endif
 
+// default speed to 400K
+#define I2C_TIMING_FM           0x0010020A
+
 #endif /* _VARIANT_ARDUINO_STM32_ */
